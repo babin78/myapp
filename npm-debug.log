@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\arijit.roy\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'start' ]
+2 info using npm@3.5.3
+3 info using node@v4.2.4
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info lifecycle mean-auth@~prestart: mean-auth@
+6 silly lifecycle mean-auth@~prestart: no script for prestart, continuing
+7 info lifecycle mean-auth@~start: mean-auth@
+8 verbose lifecycle mean-auth@~start: unsafe-perm in lifecycle true
+9 verbose lifecycle mean-auth@~start: PATH: C:\Users\arijit.roy\AppData\Roaming\npm\node_modules\npm\bin\node-gyp-bin;D:\node\tut\mean-auth-master\mean-auth-master\node_modules\.bin;C:\Python27\;C:\Python27\Scripts;C:\Program Files\ImageMagick-6.9.1-Q16;C:\ProgramData\Oracle\Java\javapath;E:\Oracle\product\10.1.0\Client_1\bin;E:\Oracle\product\10.1.0\Client_1\jre\1.4.2\bin\client;E:\Oracle\product\10.1.0\Client_1\jre\1.4.2\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\DMIX;C:\Program Files\Hewlett-Packard\Drive Encryption\;C:\Program Files\ActivIdentity\ActivClient\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;D:\ari personal\development1\maven\apache-maven-3.3.3/bin;C:\Program Files\Java\jdk1.8.0_25\bin;C:\ProgramData\Newgen Common;C:\ant\bin;c:\JAXB\bin;D:\ari personal\development1\grails\grails-3.0.1\bin\bin;C:\Users\arijit.roy\AppData\Roaming\npm;C:\Users\Administrator\nodejs\;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Ruby22\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Program Files\nodejs\;C:\Program Files\Sublime Text 2\;C:\Program Files\cURL\bin;
+10 verbose lifecycle mean-auth@~start: CWD: D:\node\tut\mean-auth-master\mean-auth-master
+11 silly lifecycle mean-auth@~start: Args: [ '/d /s /c', 'node server/server.js' ]
+12 silly lifecycle mean-auth@~start: Returned: code: 1  signal: null
+13 info lifecycle mean-auth@~start: Failed to exec start script
+14 verbose stack Error: mean-auth@ start: `node server/server.js`
+14 verbose stack Exit status 1
+14 verbose stack     at EventEmitter.<anonymous> (C:\Users\arijit.roy\AppData\Roaming\npm\node_modules\npm\lib\utils\lifecycle.js:232:16)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at ChildProcess.<anonymous> (C:\Users\arijit.roy\AppData\Roaming\npm\node_modules\npm\lib\utils\spawn.js:24:14)
+14 verbose stack     at emitTwo (events.js:87:13)
+14 verbose stack     at ChildProcess.emit (events.js:172:7)
+14 verbose stack     at maybeClose (internal/child_process.js:818:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+15 verbose pkgid mean-auth@
+16 verbose cwd D:\node\tut\mean-auth-master\mean-auth-master
+17 error Windows_NT 6.1.7601
+18 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\arijit.roy\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "start"
+19 error node v4.2.4
+20 error npm  v3.5.3
+21 error code ELIFECYCLE
+22 error mean-auth@ start: `node server/server.js`
+22 error Exit status 1
+23 error Failed at the mean-auth@ start script 'node server/server.js'.
+23 error Make sure you have the latest version of node.js and npm installed.
+23 error If you do, this is most likely a problem with the mean-auth package,
+23 error not with npm itself.
+23 error Tell the author that this fails on your system:
+23 error     node server/server.js
+23 error You can get information on how to open an issue for this project with:
+23 error     npm bugs mean-auth
+23 error Or if that isn't available, you can get their info via:
+23 error     npm owner ls mean-auth
+23 error There is likely additional logging output above.
+24 verbose exit [ 1, true ]
