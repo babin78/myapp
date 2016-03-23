@@ -12,7 +12,7 @@ var express = require('express'),
 
 // mongoose
 //mongoose.connect('mongodb://arijitapp:arijitapp@ds033915.mongolab.com:33915/arijitapp');
-mongoose.connect('mongodb://localhost/arijitapp');
+mongoose.connect('mongodb://arijit.roy:newgen123#@ds031982.mlab.com:31982/testapp');
 
 // user schema/model
 var User = require('./models/user.js');
